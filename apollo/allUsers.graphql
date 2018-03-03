@@ -1,0 +1,5 @@
+query{
+  getUser(_id:"5a95af0b22ddd46066e90ce1"){
+    username
+  }
+}
