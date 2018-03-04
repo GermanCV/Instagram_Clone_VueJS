@@ -85,11 +85,19 @@ import { mapState } from 'vuex';
  @media (min-width: 320px) and (max-width: 480px) {
 	 .img_container {
      display: none
-		 }
+		}
+  .form_container {
+	  width: 350px;
+	  margin-left: 0;
+  }
  }
  @media (min-width: 481px) and (max-width: 767px) {
-   .img_container {
-     display: none
-		 }
+  .img_container {
+    display: none
+	}
+  .form_container {
+	  width: 350px;
+	  margin-left: 0;
+  }
 }
 </style>
